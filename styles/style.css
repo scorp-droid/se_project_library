@@ -349,7 +349,7 @@
 
 .step {
 
-  flex-basis: 1;
+  flex-basis: auto;
   max-width: 220px;
   padding: 40px;
 
