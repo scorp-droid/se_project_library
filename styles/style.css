@@ -423,16 +423,15 @@
   margin-right: 100px;
 }
 
-.footer__logo {
-  width: 116px;
-  height: 21px;
-  padding-bottom: 108px;
-}
 
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.footer__column-heading {
+  padding-bottom: 20px;
+  
 }
 
 .footer__list-item {
