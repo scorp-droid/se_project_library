@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -34,7 +40,6 @@
   list-style: none;
   padding: 0;
   margin: 8px 0 0;
-  
 }
 
 .nav__link {
@@ -44,7 +49,7 @@
 }
 
 .nav__link:hover {
-  color: #1f69c9
+  color: #1f69c9;
 }
 .header__title {
   font-size: 66px;
@@ -86,7 +91,7 @@
 }
 
 .header__link:hover {
-  color: #1f69c9
+  color: #1f69c9;
 }
 .header__address {
   margin: 0;
@@ -189,7 +194,6 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
-  
 }
 
 .person_name_burbidge {
@@ -234,15 +238,12 @@
   margin: 0;
 }
 
-/* x */
-
-
 .staff {
   padding: 100px 0 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../images/staff_picks_background.jpg');
+  background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -265,23 +266,16 @@
   margin: 0;
 }
 
-
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
   margin-top: 68px;
   list-style-type: none;
   padding-left: 0;
   display: flex;
-
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-
-
-
 }
-
 
 .card {
   background-color: #fff;
@@ -290,7 +284,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-
 }
 
 .card__content {
@@ -324,8 +317,6 @@
 .membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
-
-
 }
 
 .membership__title {
@@ -341,18 +332,14 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   display: flex;
   justify-content: center;
-
 }
 
 .step {
-
   flex-basis: auto;
   max-width: 220px;
   padding: 40px;
-
 }
 
 .step__title {
@@ -370,7 +357,6 @@
 
 .step__description {
   margin: 10px 0 0;
-
 }
 
 .about {
@@ -383,22 +369,15 @@
 
   display: flex;
   position: relative;
-
 }
 
 .about__title {
-  /* margin: 0; */
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-
-
   max-width: 154px;
   margin-right: 120px;
-
-
-
 }
 
 .about__content {
@@ -406,14 +385,8 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   gap: 32px;
   z-index: 1;
-
 }
 
 .about__circle {
@@ -421,7 +394,6 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-
   position: absolute;
   top: -121px;
   left: -91px;
@@ -434,80 +406,44 @@
 
 .footer {
   box-sizing: border-box;
-
-
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 120px 60px 80px;
-
-
-
-
-
 }
 
-
-
-/* #1f1f1f (footer background) 
-#2f80ed (links, accents) 
-#1f69c9 (link hover) 
-#c1c1c1 (link hover in footer) */
 .footer__columns {
   display: flex;
   justify-content: space-around;
   font-size: 16px;
   line-height: 20px;
-
-
-
-
-
 }
-
 
 .footer__column_content_hours {
-
   margin-left: auto;
   margin-right: 100px;
-
-
-
 }
-
-.footer__column_content_social {}
-
 
 .footer__logo {
   width: 116px;
   height: 21px;
   padding-bottom: 108px;
-
-
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
-
 }
 
 .footer__list-item {
-
   list-style-type: none;
   font-size: 16px;
-  /* line-height: 20px; */
   margin-bottom: 20px;
 }
 
-.footer__column-heading {}
-
 .footer__column-link {
   color: #fff;
-
   text-decoration: none;
-
 }
 
 .footer__column-link:hover {
@@ -521,7 +457,4 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-
 }
-
-.footer__copyright {}
